@@ -4,8 +4,8 @@ Created on Fri Sep 12 10:42:56 2025
 
 @author: Hpwin11
 """
-!pip install pandas numpy matplotlib
-!pip install streamlit pandas plotly openpyxl
+pip install pandas numpy matplotlib
+pip install streamlit pandas plotly openpyxl
 
 import streamlit as st
 import numpy as np
@@ -54,5 +54,6 @@ plt.ylabel("Concentración (g/L)")
 plt.legend()
 plt.grid()
 plt.show()
+
 
 
